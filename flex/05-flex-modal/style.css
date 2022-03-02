@@ -4,6 +4,26 @@ html, body {
   height: 100%;
 }
 
+.text {
+  width: 425px;
+  text-align: left;
+  margin-left: 65px;
+}
+
+.top {
+  display: flex;
+  margin-left: 12px;
+  margin-top: 12px;
+  margin-right: 12px;
+  margin-bottom: -10px;
+
+}
+
+.header {
+  font-size: 22px;
+  font-weight: 700;
+  padding-left: 12px;
+}
 body {
   font-family: Roboto, sans-serif;
   margin: 0;
@@ -17,7 +37,7 @@ body {
 
 .modal {
   background: white;
-  width: 480px;
+  width: 500px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
@@ -46,17 +66,21 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: auto;
 }
 
 button {
   padding: 8px 16px;
   border-radius: 8px;
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 
 button.continue {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
+  margin-left: 65px;
 }
 
 button.cancel {
